@@ -11,13 +11,13 @@ async function main() {
   const client = new TelegramClient(new StringSession(sessionString), apiId, apiHash, { connectionRetries: 5 });
   await client.connect();
 
-  const now = new Date();
-  const time = now.toLocaleTimeString("en-US", {
-    timeZone: "Asia/Tehran",
-    hour12: false,
-    hour: "2-digit",
-    minute: "2-digit",
-  });
+const now = new Date();
+const time = new Intl.DateTimeFormat("en-US", {
+  timeZone: "Asia/Tehran",
+  hourCycle: "h23",
+  hour: "2-digit",
+  minute: "2-digit",
+}).format(now);
 
   await client.invoke(
     new Api.account.UpdateProfile({
