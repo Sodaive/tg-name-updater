@@ -12,12 +12,12 @@ async function main() {
   await client.connect();
 
   const now = new Date();
-  const time = now.toLocaleTimeString("en-US", {
+  const time = new Intl.DateTimeFormat("en-US", {
     timeZone: "Asia/Tehran",
-    hour12: false,
+    hourCycle: "h23",
     hour: "2-digit",
     minute: "2-digit",
-  });
+  }).format(now);
 
   await client.invoke(
     new Api.account.UpdateProfile({
