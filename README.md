@@ -22,11 +22,11 @@
 
 ### ۳. گرفتن Session String
 مخزن را کلون کنید (یا از GitHub Codespaces استفاده کنید) و دستورات زیر را اجرا کنید:
-\`\`\`bash
+```bash
 npm install telegram input
 node login.js
-\`\`\`
-(فایل `login.js` را طبق نمونه در پایین بسازید — این فایل هیچ‌وقت نباید commit شود.)
+```
+(فایل `login.js` را طبق نمونه بسازید — این فایل هیچ‌وقت نباید commit شود.)
 
 ### ۴. تنظیم GitHub Secrets
 در ریپوی fork‌شده‌ی خودتان، به Settings → Secrets and variables → Actions بروید و این مقادیر را اضافه کنید:
