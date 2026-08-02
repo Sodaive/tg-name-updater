@@ -5,7 +5,7 @@ const { Api } = require("telegram/tl");
 const apiId = parseInt(process.env.TG_API_ID);
 const apiHash = process.env.TG_API_HASH;
 const sessionString = process.env.TG_SESSION;
-const baseName = process.env.TG_BASE_NAME || "𝕾𝖚𝖉𝖆";
+const baseName = process.env.TG_BASE_NAME || "User";
 
 async function main() {
   const client = new TelegramClient(new StringSession(sessionString), apiId, apiHash, { connectionRetries: 5 });
