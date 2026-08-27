@@ -236,7 +236,7 @@ TG_BASE_NAME = Suda
 The resulting profile name could be:
 
 ```text
-Suda | 10:42
+Suda 10:42
 ```
 
 ---
@@ -567,7 +567,7 @@ TG_BASE_NAME = Suda
 و خروجی می‌تواند چیزی شبیه این باشد:
 
 ```text
-Suda | 10:42
+Suda 10:42
 ```
 
 ---
