@@ -2,7 +2,7 @@
 
 > Automatically update your Telegram profile name with the current time — live, automatically, and without requiring your own server.
 
-[فارسی](#-فارسی) • [English](#-english)
+[فارسی](#فارسی) • [English](#-english)
 
 ---
 
