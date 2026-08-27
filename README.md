@@ -4,22 +4,7 @@
 
 [فارسی](#فارسی) • [English](#-english)
 
-<<<<<<< HEAD
----
 
-## ✨ Features
-
-* 🕐 **Live Time-Based Name** — Automatically appends the current time to your Telegram profile name.
-* 🤖 **Fully Automated** — Runs automatically through GitHub Actions.
-* ☁️ **No VPS Required** — No need to keep your computer or a server online.
-* 🔐 **Secure Credentials** — Telegram credentials are stored using GitHub Actions Secrets.
-* 🌍 **Tehran Timezone** — Uses `Asia/Tehran` as the default timezone.
-* ⚡ **Node.js + Telegram MTProto** — Built with Node.js and the Telegram User API.
-* 🆓 **Free & Open Source** — Released under the MIT License.
-
-### Example
-
-=======
 <div align="center">
 
 <img src="assets/profile-preview.png" alt="Telegram profile time updater preview" width="420">
@@ -40,7 +25,6 @@
 
 ### Example
 
->>>>>>> c43ff6c (Add profile preview to README)
 Your profile name can automatically become:
 
 ```text
